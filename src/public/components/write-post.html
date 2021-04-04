@@ -1,0 +1,32 @@
+<script src="/app/write-post.js"></script>
+<!--app folder ke andar wala all-posts.js wala load hua hai yaha-->
+
+<div class="container my-2 text-dark" style="background-color: rgba(255,255,255,.8);
+    border-radius: 30px; box-shadow: gray 8px 8px 8px;">
+    <h1 class="display text-center"><em>Write-Post</em></h1>
+    <form>
+        <!--ye wala hai used id dalane ka-->
+        <div class="form-group">
+            <label for="exampleInputEmail1">USER-ID : </label>
+            <input class="form-control" id="Input-ID" aria-describedby="emailHelp">
+            <small class="form-text text-muted">We'll never share your pers-info to anyone</small>
+        </div>
+
+        <!--------ye wala title daalne ka-->
+        <div class="form-group">
+            <label for="exampleInputEmail1">TITLE : </label>
+            <input class="form-control" id="Input-Title" aria-describedby="emailHelp">
+            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <!------ye wala comment likhne ka-->
+        <div class="form-group">
+            <label for="exampleInputPassword1">COMMENT:</label>
+            <textarea class="form-control" id="Comment-Text" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="margin-bottom: 20px; margin-left: 500px;" id="btnAddPost">POST</button>
+    </form>
+</div>
+
+
+
